@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+======================================================
+******************************************************
+TECCART Institute - April 02, 2022 - 23:29
+Project in Web Page Design - Business Computing (AEC)
+TeccFlix: Streaming Platform (HTML & CSS only)
+Author: Dathus Gilles
+Email: gdathus@gmail.com
+******************************************************
+======================================================
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeccFlix</title>
+    <!--  Feuille de styles  -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!--  Top Navigation   -->
+    <nav class="nav-container">
+        <div class="nav-item">
+            <div class="logo">
+                <h1>TeccFlix</h1>
+            </div>
+        </div>
+        <div class="nav-item">
+            <ul class="ul-nav">
+                <li class="li-nav"><a href="index.html" class="link-nav">Home</a></li>
+                <li class="li-nav"><a href="" class="link-nav">Search</a></li>
+                <li class="li-nav"><a href="" class="link-nav">Favourites</a></li>
+                <li class="li-nav"><a href="" class="link-nav">Settings</a></li>
+            </ul>
+        </div>
+        <div class="nav-item lang">
+            <ul class="ul-lang">
+                <li class="li-nav li-lang"><a href="en-index.html" class="link-nav link-lang">English</a></li>
+                <li class="li-nav li-lang"><a href="index.html" class="link-nav link-lang">Français</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!--  Left Side Menu  -->
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="images/genres/nouveautes_288x192.jpg" alt="brand new" srcset="">
+            <div class="menu-overlay">
+                <h1>New</h1>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="images/genres/animes_288x192.jpg" alt="Animation" srcset="">
+            <div class="menu-overlay">
+                <h1>Animes</h1>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="images/genres/movies_288x192.jpg" alt="Films" srcset="">
+            <div class="menu-overlay">
+                <h1>Movies</h1>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="images/genres/series_288x192.jpg" alt="Series" srcset="">
+            <div class="menu-overlay">
+                <h1>Shows</h1>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="images/genres/kids_288x192.jpg" alt="Jeunesse" srcset="">
+            <div class="menu-overlay">
+                <h1>Youth</h1>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="images/genres/populaire_288x192.jpg" alt="Populaires" srcset="">
+            <div class="menu-overlay">
+                <h1>Trending</h1>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="images/genres/horror_288x192.jpg" alt="Films etrangers" srcset="">
+            <div class="menu-overlay">
+                <h1>Foreign</h1>
+            </div>
+        </div>
+    </div>
+
+<!--  Media Player  -->
+    <div class="player-container">
+<!--  iframe  -->
+        <iframe src="player.html" id="player" name="player" allowfullscreen></iframe>
+    </div>
+
+<!--  Banner -->
+    <div class="banner">
+        <div class="banner-item">
+            <img src="images/numero-un/no1.jpg" alt="numero un" srcset="">
+            <div class="banner-overlay">
+                <h1>Number One</h1>
+            </div>
+        </div>
+        <div class="banner-item">
+            <img src="images/coming-soon/comingSoon_760x544.jpg" alt="Coming Soon" srcset="">
+            <div class="banner-overlay">
+                <h1>Coming Sooon...</h1>
+            </div>
+        </div>
+    </div>
+
+<!--  Media Container  -->
+    <div class="media-container">
+        <div class="media-item">
+            <a href="https://www.youtube.com/embed/1JF0rVnG5Wo?start=5" target="player">
+            <img src="images/movies/ninja-assassin_608x352.jpg" alt="Ninja Assassin">
+            <div class="media-overlay">
+                <h1>NINJA ASSASSIN</h1>
+                <p>Ratings: &#10026;&#10026;&#10026;&#10026;</p>
+            </div>
+            </a>
+        </div>
+        <div class="media-item">
+            <a href="https://www.youtube.com/embed/UvKKs1qcbYs?start=5" target="player">
+            <img src="images/movies/ip-man_608x352.jpg" alt="Ip Man">
+            <div class="media-overlay">
+                <h1>IP MAN</h1>
+                <p>Ratings: &#10026;&#10026;&#10026;&#10026;&#10026;</p>
+            </div>
+            </a>
+        </div>
+        <div class="media-item">
+            <a href="https://www.youtube.com/embed/hj8jEz4277A?start=5" target="player">
+            <img src="images/movies/deahtAtFuneral_608x352.jpg" alt="Death At Funeral">
+            <div class="media-overlay">
+                <h1>DEATH AT FUNERAL</h1>
+                <p>Ratings: &#10026;&#10026;&#10026;&#10026;</p>
+            </div>
+            </a>
+        </div>
+        <div class="media-item">
+            <a href="https://www.youtube.com/embed/ti60Lm3mQ3U?start=5" target="player">
+            <img src="images/movies/obsessed_608x352.jpg" alt="Obsessed">
+            <div class="media-overlay">
+                <h1>OBSESSED</h1>
+                <p>Ratings: &#10026;&#10026;&#10026;</p>
+            </div>
+            </a>
+        </div>
+        <div class="media-item">
+            <a href="https://www.youtube.com/embed/OAVnOz7i-JA?start=5" target="player">
+            <img src="images/movies/rushHour_608x352.jpg" alt="">
+            <div class="media-overlay">
+                <h1>RUSH HOUR</h1>
+                <p>Ratings: &#10026;&#10026;&#10026;&#10026;</p>
+            </div>
+            </a>
+        </div>
+        <div class="media-item">
+            <a href="https://www.youtube.com/embed/DXO1Vt06_4k?start=5" target="player"></a>
+            <img src="images/movies/ong-bak_608x352.jpg" alt="">
+            <div class="media-overlay">
+                <h1>ONG-BAK</h1>
+                <p>Ratings: &#10026;&#10026;&#10026;&#10026;&#10026;</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+======================================================
+******************************************************
+TECCART Institute - April 02, 2022 - 23:29
+Project in Web Page Design - Business Computing (AEC)
+TeccFlix: Streaming Platform (HTML & CSS only)
+Author: Dathus Gilles
+Email: gdathus@gmail.com
+******************************************************
+======================================================
